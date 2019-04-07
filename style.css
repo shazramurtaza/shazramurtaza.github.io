@@ -7,6 +7,7 @@ body {
   line-height: 16px;
  font-family: 'Roboto', sans-serif;
    color: #666;
+   overflow: hidden;
 }
 h1,h2,h3,h4,h5,h6,p,ul {
   margin: 0;
@@ -81,6 +82,7 @@ text-transform: uppercase;
 height: 100px;
 width: 100%;
 background: rgba(0,0,40,1);
+overflow: hidden;
 
 }
 .header .header-info{
@@ -127,7 +129,7 @@ display: block;
 	color: #fd9d15;
 }
 .hero-pannel{
-
+overflow: hidden;
 }
 .hero-pannel .center{
   position: absolute;
