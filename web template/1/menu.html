@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap.grid.css" />
+	<link rel="stylesheet" href="css/bootstrap.grid.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Greek</title>
+</head>
+<body>
+
+<section class="hero menu-hero"  style="background: url(img/menu-bg.png) no-repeat center; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+  <div class="header"> 
+    <div class="container"> 
+      <div class="header-info">
+        <div class="logo">
+            LOGO HERE
+        </div>
+        <div class="menu-items">
+           <ul class="d-flex justify-content-between">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li class="active"><a href="menu.html">Menu</a></li>
+              <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+        <div class="burger-menu">
+        <div class="icon"><span class="fas fa-bars"></span></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="hero-pannel">
+    <div class="burger-menu">
+    <div class="items">
+      <div>
+       <ul>
+             <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+    </div>
+  </div>
+    </div>
+        <div class="info">
+            <div class="content">
+            <div  data-aos="fade-in" data-aos-duration="2000" class="header-title">
+              Restaurant Menu
+            </div>
+            <div class="btn d-flex justify-content-center">
+               <a href="#">Make a reservation</a>
+            </div>
+            </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="container Restaurant-menu">
+<div class="Menu rounded box-shadow">
+        <div class="menu">
+	       <ul class="d-flex justify-content-between">
+	       	  <li class="active"><a href="#" onclick="breakfast()">Breakfast</a></li>
+	       	  <li><a href="#" onclick="lunch()">Lunch</a></li>
+	       	  <li><a href="#" onclick="dinner()">Dinner</a></li>
+	       	  <li><a href="#" onclick="deserts()">Deserts</a></li>
+	       </ul>
+	    </div>
+    <div class="breakfast" id="breakfast">
+	    <div style="padding: 5px 50px 90px;">
+	    <div class="content">
+	    <div class="row">
+		    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Faux Bacon Avocado Toast 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 40%;"></div>
+		    	    			<div class="price">
+		    	    				60.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Crispy faux bacon, fresh avocado and toast
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Phillysteak 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 55%;"></div>
+		    	    			<div class="price">
+		    	    				28.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Pleurotus mushrooms, baguette
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Caesar Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Cabbage, lettuce, faux chicken and croutons
+
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Warm Beet - Lentil Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 45%;"></div>
+		    	    			<div class="price">
+		    	    				40
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Lentils, roasted beetrot and other vegetables
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Farmer Fresh Salad Mix with Beets 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 30%;"></div>
+		    	    			<div class="price">
+		    	    				30.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, fennel, lettuce and other veggies
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  		
+		    </div>
+		     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Spicy Beet Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, sriracha sauce, chili
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Veggie burger 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.75
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Halloumi, burger buns, letuce, tomatoes, sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Grilled Vegetables 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.50
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Carrots, beetroot, potatoes
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Avocado Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				29.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Avocado, rice noodles, soy sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Fried Potatoes
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Potatoes, smoked paprika
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  				
+		    </div>	   
+		</div>	    
+    </div>
+</div>
+</div>
+
+    <div class="lunch" id="lunch">
+	    <div style="padding: 5px 50px 90px;">
+	    <div class="content">
+	    <div class="row">
+		   
+		     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Spicy Beet Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, sriracha sauce, chili
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Veggie burger 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.75
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Halloumi, burger buns, letuce, tomatoes, sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Grilled Vegetables 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.50
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Carrots, beetroot, potatoes
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Avocado Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				29.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Avocado, rice noodles, soy sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Fried Potatoes
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Potatoes, smoked paprika
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  				
+		    </div>
+		     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Faux Bacon Avocado Toast 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 40%;"></div>
+		    	    			<div class="price">
+		    	    				60.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Crispy faux bacon, fresh avocado and toast
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Phillysteak 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 55%;"></div>
+		    	    			<div class="price">
+		    	    				28.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Pleurotus mushrooms, baguette
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Caesar Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Cabbage, lettuce, faux chicken and croutons
+
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Warm Beet - Lentil Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 45%;"></div>
+		    	    			<div class="price">
+		    	    				40
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Lentils, roasted beetrot and other vegetables
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Farmer Fresh Salad Mix with Beets 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 30%;"></div>
+		    	    			<div class="price">
+		    	    				30.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, fennel, lettuce and other veggies
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  		
+		    </div>	   
+		</div>	    
+    </div>
+</div>
+</div>
+
+    <div class="dinner" id="dinner">
+	    <div style="padding: 5px 50px 90px;">
+	    <div class="content">
+	    <div class="row">
+		    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Faux Bacon Avocado Toast 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 40%;"></div>
+		    	    			<div class="price">
+		    	    				60.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Crispy faux bacon, fresh avocado and toast
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Phillysteak 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 55%;"></div>
+		    	    			<div class="price">
+		    	    				28.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Pleurotus mushrooms, baguette
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Caesar Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Cabbage, lettuce, faux chicken and croutons
+
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Warm Beet - Lentil Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 45%;"></div>
+		    	    			<div class="price">
+		    	    				40
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Lentils, roasted beetrot and other vegetables
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Farmer Fresh Salad Mix with Beets 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 30%;"></div>
+		    	    			<div class="price">
+		    	    				30.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, fennel, lettuce and other veggies
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  		
+		    </div>
+		     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Spicy Beet Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, sriracha sauce, chili
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Veggie burger 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.75
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Halloumi, burger buns, letuce, tomatoes, sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Grilled Vegetables 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.50
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Carrots, beetroot, potatoes
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Avocado Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				29.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Avocado, rice noodles, soy sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Fried Potatoes
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Potatoes, smoked paprika
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  				
+		    </div>	   
+		</div>	    
+    </div>
+</div>
+</div>
+
+    <div class="deserts" id="deserts">
+	    <div style="padding: 5px 50px 90px;">
+	    <div class="content">
+	    <div class="row">
+		   
+		     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Spicy Beet Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, sriracha sauce, chili
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Veggie burger 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.75
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Halloumi, burger buns, letuce, tomatoes, sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Grilled Vegetables 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				24.50
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Carrots, beetroot, potatoes
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Avocado Noodles 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				29.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Avocado, rice noodles, soy sauce
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Fried Potatoes
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 57%;"></div>
+		    	    			<div class="price">
+		    	    				2.45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Potatoes, smoked paprika
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  				
+		    </div>
+		     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 h-auto">
+		    	<div class="menu-card">
+		    	    <ul>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Faux Bacon Avocado Toast 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 40%;"></div>
+		    	    			<div class="price">
+		    	    				60.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Crispy faux bacon, fresh avocado and toast
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Phillysteak 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 55%;"></div>
+		    	    			<div class="price">
+		    	    				28.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Pleurotus mushrooms, baguette
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Vegan Caesar Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 50%;"></div>
+		    	    			<div class="price">
+		    	    				45
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Cabbage, lettuce, faux chicken and croutons
+
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Warm Beet - Lentil Salad 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 45%;"></div>
+		    	    			<div class="price">
+		    	    				40
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Lentils, roasted beetrot and other vegetables
+		    	    		</div>
+		    	    	</li>
+		    	    	<li>
+		    	    		<div class="title">
+		    	    			<div class="name">
+		    	    				Farmer Fresh Salad Mix with Beets 
+		    	    			</div>
+		    	    			<div class="border-mid" style="width: 30%;"></div>
+		    	    			<div class="price">
+		    	    				30.5
+		    	    			</div>
+		    	    		</div>
+		    	    		<div class="sub-title">
+		    	    			Beets, fennel, lettuce and other veggies
+		    	    		</div>
+		    	    	</li>
+		    	    </ul> 
+		    	</div>  		
+		    </div>	   
+		</div>	    
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<section class="contact-services">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12 ">
+				<div class="icon">
+					<span class="far fa-clock"></span>
+				</div>
+				<div class="info">
+					Today 10:00 am - 10:00 pm
+				</div>
+				<div class="link">
+					<a href="#"> Working Hours &#10095; </a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="icon">
+					<span class="fas fa-location-arrow"></span>
+				</div>
+				<div class="info">
+					35 Street Address Here, NY 12345
+				</div>
+				<div class="link">
+					<a href="#"> Get Directions &#10095; </a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="icon">
+					<span class="fa fa-phone icon-flipped"></span>
+				</div>
+				<div class="info">
+					+0 (123) 456-789-0000
+				</div>
+				<div class="link">
+					<a href="#"> Call Us &#10095; </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="footer">
+	 <div class="footer-nav">
+	 	  <ul>
+	       	  <li><a href="home.html">Home</a></li>
+	       	  <li><a href="gallery.html">Gallery</a></li>
+	       	  <li class="active"><a href="menu.html">Menu</a></li>
+	       	  <li><a href="contact.html">Contact</a></li>
+	       </ul>
+	 </div>
+	 <div class="copyright">
+	 	  © WebDo 2019. All Rights Reserved.   
+	 </div>
+</section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script type="text/javascript">
+	AOS.init();
+
+	$(document).ready(function() {
+	  $(' .burger-menu .icon').on('click', function(){
+		$(' .burger-menu .items').slideToggle(100);
+	  });
+	});
+
+$('.Restaurant-menu .menu ul li a').on('click',function (e) {
+          $('.Restaurant-menu .menu ul li').removeClass('active');
+          $(this).parent('li').addClass('active');
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+       });
+
+
+    function breakfast() {
+   var w = document.getElementById("breakfast");
+   var x = document.getElementById("lunch");
+   var y = document.getElementById("dinner");
+     var z = document.getElementById("deserts");
+   w.style.display = "block";
+   x.style.display = "none";
+   y.style.display = "none";
+   z.style.display = "none";
+}
+
+ function lunch() {
+   var w = document.getElementById("breakfast");
+   var x = document.getElementById("lunch");
+   var y = document.getElementById("dinner");
+    var z = document.getElementById("deserts");
+   w.style.display = "none";
+   x.style.display = "block";
+   y.style.display = "none";
+   z.style.display = "none";
+}
+
+ function dinner() {
+   var w = document.getElementById("breakfast");
+   var x = document.getElementById("lunch");
+   var y = document.getElementById("dinner");
+     var z = document.getElementById("deserts");
+   w.style.display = "none";
+   x.style.display = "none";
+   y.style.display = "block";
+   z.style.display = "none";
+}
+ function deserts() {
+   var w = document.getElementById("breakfast");
+   var x = document.getElementById("lunch");
+   var y = document.getElementById("dinner");
+     var z = document.getElementById("deserts");
+   w.style.display = "none";
+   x.style.display = "none";
+   y.style.display = "none";
+   z.style.display = "block";
+}
+</script>
+
+
+
+</body>
+</html>

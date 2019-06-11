@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap.grid.css" />
+	<link rel="stylesheet" href="css/bootstrap.grid.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="style.css" />
+	<title>Greek</title>
+</head>
+<body>
+
+<section class="hero gallery-hero"  style="background: url(img/gallery-bg.png) no-repeat center; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; ">
+  <div class="header"> 
+    <div class="container"> 
+      <div class="header-info">
+        <div class="logo">
+            LOGO HERE
+        </div>
+        <div class="menu-items">
+           <ul class="d-flex justify-content-between">
+              <li><a href="home.html">Home</a></li>
+              <li class="active"><a href="gallery.html">Gallery</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+        <div class="burger-menu">
+        <div class="icon"><span class="fas fa-bars"></span></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="hero-pannel">
+    <div class="burger-menu">
+    <div class="items">
+      <div>
+       <ul>
+             <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+    </div>
+  </div>
+    </div>
+        <div class="info">
+            <div class="content">
+            <div  data-aos="fade-in" data-aos-duration="2000" class="header-title">
+              Restaurant Gallery
+            </div>
+            <div class="btn d-flex justify-content-center">
+               <a href="#">Make a reservation</a>
+            </div>
+            </div>
+      </div>
+    </div>
+</section>
+<section class="container how-we-do-it">
+<div class="gallery rounded box-shadow">
+        <div class="menu">
+	       <ul class="d-flex justify-content-between">
+	       	  <li class="active"><a href="#" onclick="interior()">Interior</a></li>
+	       	  <li><a href="#" onclick="foods()">Food</a></li>
+	       	  <li><a href="#" onclick="events()">Events</a></li>
+	       	  <li><a href="#" onclick="drinks()">Drinks</a></li>
+	       </ul>
+	    </div>
+<div class="interior" id="interior">
+	 <div style="padding: 60px 40px 30px;">
+      <div data-aos="fade in" data-aos-duration="2000">
+      <div class="content">
+     <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery1.png">
+                <div onclick="onClickC();currentGalleryImage(1)" class="image-overlay"></div>
+        
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery5.png">
+                <div onclick="onClickC();currentGalleryImage(5)" class="image-overlay"></div>
+            </div>    
+        </div>
+        </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery2.png">
+                <div onclick="onClickC();currentGalleryImage(2)" class="image-overlay"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery6.png">
+                <div onclick="onClickC();currentGalleryImage(6)" class="image-overlay"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery3.png">
+                <div onclick="onClickC();currentGalleryImage(3)" class="image-overlay"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(7)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery4.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(4)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(8)"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="show-more w3-animate-opacity" data-aos="fade in" data-aos-duration="4000" id="show-more-c"> 
+    <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(9)"></div>
+            </div>
+        </div>
+    </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(10)"></div>
+            </div>    
+        </div>
+    </div>
+  
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(11)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickC();currentGalleryImage(12)"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>      
+</div>
+</div>
+<div class="show-all" id="show-all-c">
+	<a href="#show-more-c" onclick="showMoreC()">Show all<span class="fa fa-arrow-down"></span></a>	
+</div>
+</div>
+<div class="foods"  id="foods">
+     <div style="padding: 60px 40px 30px;">
+      <div data-aos="fade in" data-aos-duration="2000">
+       <div class="content">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery1.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(13)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(17)"></div>
+            </div>    
+        </div>
+        </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery3.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(14)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(18)"></div>
+            </div>
+        </div>
+    </div>    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery2.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(15)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(19)"></div>
+            </div>
+        </div>
+    </div>  
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery4.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(16)"></div>
+            </div>
+        </div>    
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(20)"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  <div class="show-more w3-animate-opacity" data-aos="fade in" data-aos-duration="4000" id="show-more-w"> 
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(21)"></div>
+            </div>    
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(22)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(23)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickW();currentGalleryImage(24)"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+<div class="show-all" id="show-all-w"> 
+	<a href="#show-more-w" onclick="showMoreW()">Show all<span class="fa fa-arrow-down"></span></a>
+</div>
+</div>
+<div class="events" id="events">
+     <div style="padding: 60px 40px 30px;">
+      <div data-aos="fade in" data-aos-duration="2000">
+       <div class="content">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery4.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(25)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(29)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery2.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(26)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(30)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery3.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(27)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(31)"></div>
+            </div>
+        </div>
+    </div>
+     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery1.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(28)"></div>
+                <span class="overlay"></span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(32)"></div>
+            </div>    
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="show-more w3-animate-opacity" data-aos="fade in" data-aos-duration="4000" id="show-more-s"> 
+        <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(33)"></div>
+            </div>    
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(34)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(35)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickS();currentGalleryImage(36)"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>            
+<div class="show-all" id="show-all-s">
+	<a href="#show-more-s" onclick="showMoreS()">Show all<span class="fa fa-arrow-down"></span></a>
+</div>
+</div>
+<div class="drinks" id="drinks">
+	<div style="padding: 60px 40px 30px;">
+      <div data-aos="fade in" data-aos-duration="2000">
+        <div class="content">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery1.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(37)"></div>
+                <span class="overlay"></span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(41)"></div>
+            </div>    
+        </div>
+        </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 h-auto">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery2.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(38)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(42)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery3.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(39)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(43)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery4.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(40)"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img  src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(44)"></div>
+            </div>
+        </div>
+    </div>
+    </div>     
+  </div>
+  </div>
+  <div class="show-more w3-animate-opacity" data-aos="fade in" data-aos-duration="4000" id="show-more-h"> 
+      <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery5.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(45)"></div>
+            </div>    
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img src="img/gallery6.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(46)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div  class="box">
+            <div class="image">
+                <img src="img/gallery7.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(47)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="box">
+            <div class="image">
+                <img  src="img/gallery8.png">
+                <div class="image-overlay" onclick="onClickH();currentGalleryImage(48)"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>  
+		</div>  
+<div class="show-all" id="show-all-h">
+	<a href="#show-more-h" onclick="showMoreH()">Show all<span class="fa fa-arrow-down"></span></a>
+</div>
+</div>	
+</div>
+</section>
+
+
+    <div id="modal02" class="modal">
+  <span onclick="onClickCloseC()" class="close">&times;</span>
+    <div class="modal-content">
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery1.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery2.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery3.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery4.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+  </div>
+  <a class="prevImg" onclick="plusGalleryImages(-1)">&#10094;</a>
+    <a class="nextImg" onclick="plusGalleryImages(1)">&#10095;</a>
+</div>
+
+ <div id="modal03" class="modal">
+  <span onclick="onClickCloseW()" class="close">&times;</span>
+    <div class="modal-content">
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery1.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery3.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery2.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery4.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+  </div>
+  <a class="prevImg" onclick="plusGalleryImages(-1)">&#10094;</a>
+    <a class="nextImg" onclick="plusGalleryImages(1)">&#10095;</a>
+</div>
+
+ <div id="modal04" class="modal">
+  <span onclick="onClickCloseS()" class="close">&times;</span>
+    <div class="modal-content">
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery4.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery2.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery3.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery1.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+  </div>
+  <a class="prevImg" onclick="plusGalleryImages(-1)">&#10094;</a>
+    <a class="nextImg" onclick="plusGalleryImages(1)">&#10095;</a>
+</div>
+
+ <div id="modal05" class="modal">
+  <span onclick="onClickCloseH()" class="close">&times;</span>
+    <div class="modal-content">
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery1.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery2.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery3.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery4.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery5.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery6.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery7.png" >
+    </div>
+    <div class="myGalleryImages">
+       <img class=" w3-center w3-animate-opacity" id="img01"  src="img/gallery8.png" >
+    </div>
+  </div>
+  <a class="prevImg" onclick="plusGalleryImages(-1)">&#10094;</a>
+    <a class="nextImg" onclick="plusGalleryImages(1)">&#10095;</a>
+</div>
+
+
+<section class="contact-services">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12 ">
+				<div class="icon">
+					<span class="far fa-clock"></span>
+				</div>
+				<div class="info">
+					Today 10:00 am - 10:00 pm
+				</div>
+				<div class="link">
+					<a href="#"> Working Hours &#10095; </a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="icon">
+					<span class="fas fa-location-arrow"></span>
+				</div>
+				<div class="info">
+					35 Street Address Here, NY 12345
+				</div>
+				<div class="link">
+					<a href="#"> Get Directions &#10095; </a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="icon">
+					<span class="fa fa-phone"></span>
+				</div>
+				<div class="info">
+					+0 (123) 456-789-0000
+				</div>
+				<div class="link">
+					<a href="#"> Call Us &#10095; </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="footer">
+	 <div class="footer-nav">
+	 	  <ul>
+	       	  <li><a href="home.html">Home</a></li>
+	       	  <li class="active"><a href="gallery.html">Gallery</a></li>
+	       	  <li><a href="menu.html">Menu</a></li>
+	       	  <li><a href="contact.html">Contact</a></li>
+	       </ul>
+	 </div>
+	 <div class="copyright">
+	 	  © WebDo 2019. All Rights Reserved.   
+	 </div>
+</section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script type="text/javascript">
+	AOS.init();
+
+	$(document).ready(function() {
+	  $('.burger-menu .icon').on('click', function(){
+		$('.burger-menu .items').slideToggle(100);
+	  });
+	});
+
+
+$('.how-we-do-it .menu ul li a').on('click',function (e) {
+          $('.how-we-do-it .menu ul li').removeClass('active');
+          $(this).parent('li').addClass('active');
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+       });
+
+
+
+$(document).ready(function() {
+	  $('.how-we-do-it .show-all a').on('click', function(){
+	  	if(document.getElementById("show-more-c").style.display == "block") {
+         var x = document.getElementById("show-all-c");
+         x.style.display = "none";
+        }
+        if(document.getElementById("show-more-w").style.display == "block") {
+		var x = document.getElementById("show-all-w");
+        x.style.display = "none";
+        }
+        if(document.getElementById("show-more-s").style.display == "block") {
+		var x = document.getElementById("show-all-s");
+        x.style.display = "none";
+        }
+        if(document.getElementById("show-more-h").style.display == "block") {
+		var x = document.getElementById("show-all-h");
+        x.style.display = "none";
+        }
+	  });
+	});
+
+
+    function showMoreC() {
+   var x = document.getElementById("show-more-c");
+   x.style.display = "block";
+
+}
+   function showMoreW() {
+   var x = document.getElementById("show-more-w");
+   x.style.display = "block";
+
+}
+   function showMoreS() {
+   var x = document.getElementById("show-more-s");
+   x.style.display = "block";
+
+}
+   function showMoreH() {
+   var x = document.getElementById("show-more-h");
+   x.style.display = "block";
+
+}
+  
+
+
+    function interior() {
+   var w = document.getElementById("interior");
+   var x = document.getElementById("foods");
+   var y = document.getElementById("events");
+     var z = document.getElementById("drinks");
+   w.style.display = "block";
+   x.style.display = "none";
+   y.style.display = "none";
+   z.style.display = "none";
+}
+
+ function foods() {
+   var w = document.getElementById("interior");
+   var x = document.getElementById("foods");
+   var y = document.getElementById("events");
+    var z = document.getElementById("drinks");
+   w.style.display = "none";
+   x.style.display = "block";
+   y.style.display = "none";
+   z.style.display = "none";
+}
+
+ function events() {
+   var w = document.getElementById("interior");
+   var x = document.getElementById("foods");
+   var y = document.getElementById("events");
+     var z = document.getElementById("drinks");
+   w.style.display = "none";
+   x.style.display = "none";
+   y.style.display = "block";
+   z.style.display = "none";
+}
+ function drinks() {
+   var w = document.getElementById("interior");
+   var x = document.getElementById("foods");
+   var y = document.getElementById("events");
+     var z = document.getElementById("drinks");
+   w.style.display = "none";
+   x.style.display = "none";
+   y.style.display = "none";
+   z.style.display = "block";
+}
+ 
+ function onClickC(element) {
+  document.getElementById("modal02").style.display = "block";
+}
+
+window.onclick = function(event) {
+var modal = document.getElementsById("modal02");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+ function onClickCloseC() {
+  document.getElementById("modal02").style.display = "none";
+}
+
+ function onClickW(element) {
+  document.getElementById("modal03").style.display = "block";
+}
+ function onClickS(element) {
+  document.getElementById("modal04").style.display = "block";
+}
+ function onClickH(element) {
+  document.getElementById("modal05").style.display = "block";
+}
+ function onClickCloseW() {
+  document.getElementById("modal03").style.display = "none";
+}
+ function onClickCloseS() {
+  document.getElementById("modal04").style.display = "none";
+}
+ function onClickCloseH() {
+  document.getElementById("modal05").style.display = "none";
+}
+
+
+
+var imageIndex = 1;
+showGalleryImages(imageIndex);
+// Next/previous controls
+function plusGalleryImages(n) {
+  showGalleryImages(imageIndex += n);
+}
+
+// Thumbnail image controls
+function currentGalleryImage(n) {
+  showGalleryImages(imageIndex = n);
+}
+
+function showGalleryImages(n) {
+  var i;
+  var GalleryImages = document.getElementsByClassName("myGalleryImages");
+  var dots = document.getElementsByClassName("demo");
+  if (n > GalleryImages.length) {imageIndex = 1}
+  if (n < 1) {imageIndex = GalleryImages.length}
+  for (i = 0; i < GalleryImages.length; i++) {
+    GalleryImages[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  GalleryImages[imageIndex-1].style.display = "block";
+  dots[imageIndex-1].className += " active";
+  captionText.innerHTML = dots[imageIndex-1].alt;
+}
+
+ 
+</script>
+
+
+
+</body>
+</html>

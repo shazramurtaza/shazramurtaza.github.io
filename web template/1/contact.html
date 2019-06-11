@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap.grid.css" />
+	<link rel="stylesheet" href="css/bootstrap.grid.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Greek</title>
+</head>
+<body>
+
+<section class="hero contact-hero" style="background: url(img/contact-bg.png) no-repeat center; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; ">
+    <div class="header"> 
+    <div class="container"> 
+      <div class="header-info">
+        <div class="logo">
+            LOGO HERE
+        </div>
+        <div class="menu-items">
+           <ul class="d-flex justify-content-between">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+        <div class="burger-menu">
+        <div class="icon"><span class="fas fa-bars"></span></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="hero-pannel">
+    <div class="burger-menu">
+    <div class="items">
+      <div>
+       <ul>
+             <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+         </ul>
+    </div>
+  </div>
+    </div>
+        <div class="info">
+            <div class="content">
+            <div  data-aos="fade-in" data-aos-duration="2000" class="header-title">
+              Contact
+            </div>
+            
+            </div>
+      </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="contact rounded box-shadow">
+        <div class="map">
+        	<img src="img/map.png">
+        </div>
+        <div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12 ">
+				<div class="title">
+					Address
+				</div>
+				<div class="info">
+					35 Street Address Here, NY 12345 <br></br>
+					Office Building, first floor
+				</div>
+
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="title">
+					Reservations
+				</div>
+				<div class="info">
+					+0 (123) 456-789-0000 <br></br>
+					reservations@webdo.com
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="title">
+					Hours
+				</div>
+				<div class="info">
+					Monday-Wendnesday: Closed <br></br>
+					Thursday-Sunday: 4pm - 3am
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<section class="contact-services">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12 ">
+				<div class="icon">
+					<span class="far fa-clock"></span>
+				</div>
+				<div class="info">
+					Today 10:00 am - 10:00 pm
+				</div>
+				<div class="link">
+					<a href="#"> Working Hours &#10095; </a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="icon">
+					<span class="fas fa-location-arrow"></span>
+				</div>
+				<div class="info">
+					35 Street Address Here, NY 12345
+				</div>
+				<div class="link">
+					<a href="#"> Get Directions &#10095; </a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="icon">
+					<span class="fa fa-phone icon-flipped"></span>
+				</div>
+				<div class="info">
+					+0 (123) 456-789-0000
+				</div>
+				<div class="link">
+					<a href="#"> Call Us &#10095; </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	 <div class="footer-nav">
+	 	  <ul>
+	       	  <li><a href="home.html">Home</a></li>
+	       	  <li><a href="gallery.html">Gallery</a></li>
+	       	  <li><a href="menu.html">Menu</a></li>
+	       	  <li class="active"><a href="contact.html">Contact</a></li>
+	       </ul>
+	 </div>
+	 <div class="copyright">
+	 	  © WebDo 2019. All Rights Reserved.   
+	 </div>
+</section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script type="text/javascript">
+	AOS.init();
+
+	$(document).ready(function() {
+	  $(' .burger-menu .icon').on('click', function(){
+		$(' .burger-menu .items').slideToggle(100);
+	  });
+	});
+
+
+
+</script>
+
+
+
+</body>
+</html>
